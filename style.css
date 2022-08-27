@@ -1,0 +1,93 @@
+body {
+    background-color: darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    background-color: white;
+    height: 400px;
+
+    background-image: url('./assets/images/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    background-color: darkgray;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nav a {
+    color: brown;
+    text-decoration: none;
+    background-color: darkblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.card {
+    width: 300px;
+    height: 400px;
+    /* background-color: white; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+
+    margin: 5px;
+    display: inline-block;
+}
+
+.card img {
+    width: 100%;
+    /* height: 350px; */
+}
+
+.card h3 {
+    color: brown;
+}
+
+.all-cards {
+    text-align: center;
+}
+
+.drawing-card{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.drawing-card h2{
+    text-align: center;
+    color: rgb(205, 139, 25);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.step-images {
+    text-align: center;
+}
+.step-images img{
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.instructions li{
+    color:blue;
+    font-size: 20px;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    margin:20px;
+}
